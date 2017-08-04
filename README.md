@@ -7,10 +7,11 @@ This project is based on [Caffe-rc3](https://github.com/BVLC/caffe/tree/rc3).
 
 Only CPU version is tested under win7 and win10. Precision of probability is lost a bit but the label is right.
 
+I think GPU version would also be built smoothly if you set the environment of CUDA etc. properly. You can try! ^_^
 
 ## Steps
 0. Rename windows/CommonSettings.props.example to windows/CommonSettings.props.
-1. Build Win64 Version. This will automatically download dependencies which Win32 caffe will use.
+1. Build Win64 Version. This will automatically and surprisingly download dependencies which Win32 caffe will use.
 2. Create Win32 Project Platform copying configurations from x64 for projects "libcaffe" and "classification" respectively.
 3. Switch Project Platform to Win32 and rebuilt for projects "libcaffe" and "classification".
 4. Check it out using classification.exe.
