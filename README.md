@@ -9,6 +9,7 @@ Only CPU version is tested under win7 and win10. Precision of probability is los
 
 
 ## Steps
+0. Rename windows/CommonSettings.props.example to windows/CommonSettings.props.
 1. Build Win64 Version. This will automatically download dependencies which Win32 caffe will use.
 2. Create Win32 Project Platform copying configurations from x64 for projects "libcaffe" and "classification" respectively.
 3. Switch Project Platform to Win32 and rebuilt for projects "libcaffe" and "classification".
