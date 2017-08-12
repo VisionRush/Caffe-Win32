@@ -17,7 +17,7 @@ I think GPU version would also be built smoothly if you set the environment of C
 4. Check it out using classification.exe.
 
 ## Contributor
-team: [VisionRush](https://github.com/VisionRush/vraux)  
+team: [VisionRush](https://github.com/VisionRush)  
 authors: WangJian(wangjian@ia.ac.cn), [WangBo(wangbo@ia.ac.cn)](https://github.com/wangboNlpr)
 
 
