@@ -16,6 +16,10 @@ I think GPU version would also be built smoothly if you set the environment of C
 3. Switch Project Platform to Win32 and rebuilt for projects "libcaffe" and "classification".
 4. Check it out using classification.exe.
 
+## Contributor
+team: [VisionRush](https://github.com/VisionRush/vraux)  
+authors: WangJian(wangjian@ia.ac.cn), [WangBo(wangbo@ia.ac.cn)](https://github.com/wangboNlpr)
+
 
 # Windows Caffe
 
